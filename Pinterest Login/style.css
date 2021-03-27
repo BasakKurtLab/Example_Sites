@@ -1,0 +1,90 @@
+*{box-sizing: border-box;}
+body{margin: 0; display: flex;justify-content: center;align-items: center;flex-direction: column;}
+html{height: 100%;}
+#imgPin
+{width:6%;
+margin-top: 30px;}
+#header
+{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: Arial;
+}
+#header1
+{font-size: 40px;
+  color: #33333;
+  padding:8px;
+  margin:0;
+  margin-top: 10px;
+}
+#header2
+{
+  font-size: 16px;
+  color: #33333;
+  font-weight: 300;
+  padding: 8px;
+  margin: 0;
+  width:60%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+#emailadresse, #passwort, #alter
+{
+  width:25%;
+  height:55px;
+  border:1px solid #60635f;
+  border-radius: 15px;
+  padding: 20px;
+  margin:5px 0;
+  font-size: 18px;
+  font-family: Arial;
+  color:#565b57;
+  outline: none;
+
+}
+#button, #buttonFace, #buttonGo
+{
+  width:25%;
+  height:45px;
+  border-radius: 30px;
+  border:none;
+  padding:5px;
+  margin:5px;
+  font-size: 18px;
+  color:white;
+  font-weight: bold;
+
+}
+#button
+{
+  background-color: red;
+}
+#buttonFace
+{
+  background-color: #1719d4;
+}
+
+#buttonGo
+{
+  background-color: white;
+  color:#60635f;
+  border:1px solid #636764;
+}
+#unten
+{
+  width:24%;
+  color:#60635f;
+  margin-top:10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 14px;
+;
+}
+a
+{
+  text-decoration: none;
+  font-weight: bold;
+  color:black;
+}

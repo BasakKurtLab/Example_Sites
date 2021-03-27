@@ -1,0 +1,273 @@
+body{margin:0;}
+*{ box-sizing:border-box;}
+
+.menuContainer
+{
+  float:left;
+  width:100%;
+
+  background-color:#363d47;
+  position: fixed;
+}
+.abstand15
+{
+  float:left;
+  width:15%;
+  height:1px;
+}
+.abstand30
+{
+  float:left;
+  width:30%;
+  height:1px;
+}
+.menuInhalt
+{ float:left;
+width:70%;
+
+}
+.menuLogo
+{float:left;
+width:50%;
+color:white;
+padding-top: 15px;
+padding-bottom: 15px;
+font:20px bold Verdana;
+
+}
+
+.menuItem
+{
+  float: left;
+  width:50%;
+  text-align: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.menuItem a
+{
+  font:15px bold Verdana;
+  text-decoration: none;
+  color:white;
+  padding-left: 10px;
+}
+
+.menuItem a:hover
+{
+  color:#908c8d
+}
+
+.headContainer
+{ float:left;
+  width:100%;
+  background-color: #f7538b;
+  padding-top: 60px;
+  }
+
+.headInhalt
+  {float: left;
+    width:70%;
+    font:20px bold verdana;
+  color:white;
+  padding-top: 100px;
+  padding-bottom: 120px;
+
+}
+.headInhalt h1
+{
+  margin:0;
+}
+.inhaltContainer
+{
+  float:left;
+  width:100%;
+  border-color: white;
+  min-height: 1px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.inhalt1
+{float:left;
+width:45%;
+padding-top: 10px;
+
+border-bottom: 1px solid gray;
+font:30px bold Verdana;
+}
+
+.inhalt2
+{
+  float:left;
+  width:20%;
+  padding-top: 10px;
+
+  border-bottom: 1px solid gray;
+  font:30px bold Verdana;
+}
+.abstand5
+{
+  float:left;
+  width:5%;
+  height:1px;
+}
+.inhalt1Unten
+{
+  float:left;
+  width:45%;
+  font-size: 15px;
+  font-family: verdana;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+.inhalt2Unten
+{  float:left;
+  width:20%;
+  font-size: 15px;
+  font-family: verdana;
+  padding-top:20px;
+  padding-bottom: 5px;
+
+}
+.butonContainer
+{
+  float:left;
+  width:100%;
+
+}
+.buton
+{float:left;
+  width:45%;
+
+}
+.buton input
+{
+  background-color: #f7538b;
+  font-weight: bold;
+  width:20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: none;
+  border-radius: 5px;
+  border:none;
+  cursor: pointer;
+  transition:background-color 0.5s;
+  color:white;
+  box-shadow: 1px 3px 16px rgba(0, 0, 0, 0.2)  ;
+}
+.buton input:hover
+{ background-color:#f12d70;
+
+}
+
+.untenContainer
+{float:left;
+  width:100%;
+  padding-top: 30px;
+  padding-bottom:0px;
+
+
+
+}
+
+.card1
+{
+  float:left;
+  width:20%;
+
+  font-size: 15px;
+  font-family: verdana;
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border:1px solid #d0c9cb;
+
+
+}
+.card2
+{
+  padding-bottom: 25px;
+  padding-left: 15px;
+  border-bottom: none;
+}
+
+.card3
+{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.cardimg
+
+{background-color: #e0d0d5;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+  padding-right: 10px;
+}
+.card1 img
+{float:left;
+  width:100%;
+  border-radius: 5px;
+
+}
+
+.cardMitte
+{
+  float:left;
+  width:100%;
+
+}
+
+
+.buttonUnten
+{float:left;
+width:100%;
+padding-bottom: 50px;
+}
+.butons
+{
+float:left;
+width:50%;
+border-top: 0;
+border-bottom:0;
+
+
+}
+
+.butons input
+{
+  background-color: #f7538b;
+  font-weight: bold;
+  width:80%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: none;
+  border-radius: 5px;
+  border:none;
+  cursor: pointer;
+  transition:background-color 0.5s;
+  color:white;
+  box-shadow: 1px 3px 16px rgba(0, 0, 0, 0.2)  ;
+
+}
+.butons input:hover
+{ background-color:#f12d70;
+
+}
+
+.footerContainer
+{float:left;
+  width:100%;
+  background-color:#363d47;
+
+
+}
+.footerInhalt
+{float:left;
+  width:40%;
+  font:15px bold Verdana;
+  color:white;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom : 40px;
+
+}

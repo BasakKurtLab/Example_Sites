@@ -1,0 +1,16 @@
+.spalte
+{
+  float: left;
+  min-height: 1px;
+}
+
+.s1{width: 8.33%;}
+.s2{width: 16.66%;}
+.s3{width: 25%;}
+.s4{width: 33.33%;}
+.s5{width: 41.66%;}
+.s6{width: 50%;}
+.s8{width: 66.66%;}
+.s9{width: 75%;}
+.s10{width: 83.33%;}
+.s12{width: 100%;}

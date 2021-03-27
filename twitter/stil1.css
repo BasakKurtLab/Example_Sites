@@ -1,0 +1,113 @@
+body {margin: 0; font-family: Arial; background-color: black;}
+* {box-sizing: border-box;}
+
+.haupt
+{
+  background-color:black;
+  height: 650px;
+
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo img
+{
+  width:40px;
+  height: 40px;
+margin-top:25px;
+margin-left:20px;
+
+
+}
+.textMitte
+{
+  margin-top:30px;
+  margin-left:20px;
+
+}
+.textMitte span
+{text-align: center;
+  font-size:30px;
+  color:rgb(217 217 217);
+  font-weight: bold;
+  font-family: verdana;
+
+}
+.loginField
+{
+  background-color: black;
+  width: 90%;
+  float: left;
+  border-radius: 10px;
+  border:0px solid gray;
+  margin-left: 0;
+
+}
+.inputBox
+{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  text-align: left;
+  border: 0px solid #2f3336;
+  border-radius: 5px;
+  height: 60px;
+}
+.inputBox input
+{ border: 1px solid #2f3336;
+  background: none;
+  width:100%;
+  height:60px;
+  text-align: left;
+  font-size: 20px;
+padding-left: 4px;
+border-radius: 5px;
+}
+
+.inputBox input :focus
+{ outline: none !important;
+  border:10px solid blue;
+
+}
+
+
+
+.button
+{
+  margin-top:40px;
+
+}
+
+.button div
+{ width:90%;
+  height:40px;
+
+  border-radius:30px;
+  margin-top:20px;
+  margin-left:auto;
+  margin-right:auto;
+
+
+
+}
+.button1
+{background-color: #0e5079;
+  border:0px solid #0e5079;
+
+}
+.button1 input
+{ width:100%;
+  background: none;
+  border:none;
+  outline:none;
+  color:white;
+  font-weight: bold;
+margin-top:10px;
+
+}
+.button a:hover
+{
+  outline:none;
+}

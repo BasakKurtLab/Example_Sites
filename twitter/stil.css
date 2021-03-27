@@ -1,0 +1,159 @@
+body
+{
+  margin:0;
+  background-color: black;
+}
+*
+{
+  box-sizing:border-box;
+}
+
+.haupt
+{
+  width:100%;
+  height: 100%;
+  background-color: black;
+
+
+}
+.link
+{
+  width:55%;
+background-color: black;
+  float:left;
+
+}
+.link img
+{
+  width:870px;
+  height:700px;
+}
+.right
+{
+  width:45%;
+  float:left;
+background-color: black;
+  height:700px;
+  text-align: left;
+
+
+}
+
+.right img
+{
+  width:50px;
+  height: 50px;
+margin-top:150px;
+margin-left:30px;
+}
+
+.textOben
+{margin-top:40px;
+margin-left:30px;
+
+}
+
+.textOben span
+{text-align: center;
+  font-size: 60px;
+  color:rgb(217 217 217);
+  font-weight: bold;
+  font-family: verdana;
+
+}
+.textMitte
+{margin-top:40px;
+margin-left:30px;
+
+}
+.textMitte span
+{text-align: center;
+  font-size:30px;
+  color:rgb(217 217 217);
+  font-weight: bold;
+  font-family: verdana;
+
+}
+.buttons
+{
+  margin-top:40px;
+}
+
+.buttons div
+{ width:400px;
+  height:60px;
+
+  border-radius:30px;
+  margin-top:20px;
+  margin-left:30px;
+
+
+
+}
+.button1
+{background-color: #1da1f2;
+  border:1px solid #1da1f2;
+
+}
+.button1 input
+{
+  color:white;
+  font-weight: bold;
+
+}
+
+.button1 input:hover
+{
+  background-color: rgb(11 83 128);
+  outline: none;
+
+
+}
+
+
+
+.button2
+{ background-color: black;
+  border:2px solid #1da1f2;
+
+}
+.button2 input
+{
+  color:#1da1f2;
+  font-weight: bold;
+
+}
+
+.button2 input:hover
+{
+  background-color: rgb(5 29 43);
+outline: none;
+
+}
+
+.buttons input
+{ width:100%;
+  height:57px;
+  background: none;
+  border:0;
+  border-radius:30px;
+  transition: background-color 0.5s;
+
+}
+.footer
+{width:100%;
+  height:auto;
+margin-top: 2px;
+border:0px solid white;
+float:left;
+text-align: center;
+}
+
+.footer span
+{
+  text-align: center;
+  font-size: 14px;
+  font-family: arial;
+  color:gray;
+
+}

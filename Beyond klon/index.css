@@ -1,0 +1,174 @@
+*{box-sizing: border-box;}
+body{margin:0; padding:0;font-family: arial;}
+header{
+  width:100%;
+  top:0;
+  display: flex;
+  justify-content: space-between;
+  padding:20px 150px;
+  position: fixed;
+  background-color: white;;
+}
+
+
+
+.logo img {
+
+  width:5%;
+  padding: 0;
+  margin:0;
+}
+.logo img:hover{
+  width:6%;
+}
+
+.menu a{
+  text-decoration: none;
+  color:black;
+  font-size: 16px;
+  padding:5px 0;
+  font-weight:600;
+margin-right: 15px;
+transition: border 0.1s;
+}
+.menu a:hover{
+  border-bottom: 1px solid black;
+  padding:5px 0;
+
+}
+.menu > button, .intro  button{
+  padding:10px 10px;
+  color:#2552be;
+  font-weight: bold;
+  border:1px solid #2552be;
+  border-radius: 15px;
+  background-color: white;
+}
+.menu > button:hover, .intro  button:hover{
+  color:white;
+  background-color:#2552be;
+}
+/*********************************************/
+/****** MAIN MAIN MAIN **********************7
+/*********************************************/
+
+main{
+margin-top: 75px;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  padding:20px 60px 0 60px;
+  background: rgb(209,209,251);
+  background: linear-gradient(343deg, rgba(209,209,251,1) 0%, rgba(249,249,255,1) 100%, rgba(241,249,251,1) 100%);
+
+
+
+
+}
+main button{  padding:10px 10px;
+  color:white;
+  font-weight: bold;
+  border:1px solid #2552be;
+  border-radius: 15px;
+  background-color: #2552be;
+  font-size: 15px;
+  margin-top: 10px;
+  transition: color 0.5s;
+
+}
+main button:hover{
+  color:#2552be;
+  background-color:white;
+}
+main img{
+  width:90%;
+}
+
+main h1{
+  font-size: 44px;
+  color: #424546;
+}
+main h3{
+  font-size: 20px;
+  color: #6b6f70;
+  margin-top: 0;
+}
+.text{
+
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: center;
+}
+.wellcome{
+  padding:10px 10px;
+    color:#2f53ec;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 15px;
+    background-color: #c3cee7;
+}
+
+.mitte{
+  width:100%;
+  display: flex;
+  padding: 0 60px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+  background-color: rgb(209,209,251);
+
+}
+.mitte img{
+  width:20%;
+  margin-right: 10px;
+
+}
+.mitte>div{
+
+  display: flex;
+  flex-direction: row;
+  width:260px;
+  padding:15px 0;
+}
+.text2{
+  padding-top: 10px;
+  color:#53534f;
+}
+/*********************************************/
+/****** INTRO INTRO INTRO **********************7
+/*********************************************/
+.intro{
+  width:100%;
+  background-color: white;
+  padding:0 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0;
+  border-bottom: 1px solid black;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.content>div{
+  display: flex;
+  flex-direction: column;
+  width:350px;
+  margin-top: 10px;
+
+  padding:20px;
+  align-items: center;
+}
+.intro img{
+  width:20%;
+}
+
+.intro span{
+  margin-bottom: 10px;
+  font-size: 16px;
+  color:#636369;
+}

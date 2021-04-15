@@ -1,174 +1,302 @@
-*{box-sizing: border-box;}
-body{margin:0; padding:0;font-family: arial;}
-header{
-  width:100%;
-  top:0;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+
+}
+
+header {
+  width: 100%;
+  top: 0;
   display: flex;
   justify-content: space-between;
-  padding:20px 150px;
+  padding: 20px 150px;
   position: fixed;
-  background-color: white;;
+  background-color: white;
+  ;
 }
-
-
 
 .logo img {
-
-  width:5%;
+  width: 5%;
   padding: 0;
-  margin:0;
-}
-.logo img:hover{
-  width:6%;
+  margin: 0;
 }
 
-.menu a{
+.logo img:hover {
+  width: 6%;
+}
+
+.menu a {
   text-decoration: none;
-  color:black;
+  color: black;
   font-size: 16px;
-  padding:5px 0;
-  font-weight:600;
-margin-right: 15px;
-transition: border 0.1s;
+  padding: 5px 0;
+  font-weight: 600;
+  margin-right: 15px;
+  transition: border 0.1s;
 }
-.menu a:hover{
-  border-bottom: 1px solid black;
-  padding:5px 0;
 
+.menu a:hover {
+  border-bottom: 1px solid black;
+  padding: 5px 0;
 }
-.menu > button, .intro  button{
-  padding:10px 10px;
-  color:#2552be;
+
+.menu>button, .intro button {
+  padding: 10px 10px;
+  color: #2552be;
   font-weight: bold;
-  border:1px solid #2552be;
+  border: 1px solid #2552be;
   border-radius: 15px;
   background-color: white;
 }
-.menu > button:hover, .intro  button:hover{
-  color:white;
-  background-color:#2552be;
+
+.menu>button:hover, .intro button:hover {
+  color: white;
+  background-color: #2552be;
 }
+
 /*********************************************/
 /****** MAIN MAIN MAIN **********************7
 /*********************************************/
-
-main{
-margin-top: 75px;
-  width:100%;
+main {
+  margin-top: 75px;
+  width: 100%;
   display: flex;
   justify-content: center;
-  padding:20px 60px 0 60px;
-  background: rgb(209,209,251);
-  background: linear-gradient(343deg, rgba(209,209,251,1) 0%, rgba(249,249,255,1) 100%, rgba(241,249,251,1) 100%);
-
-
-
-
+  padding: 20px 60px 0 60px;
+  background: rgb(209, 209, 251);
+  background: linear-gradient(343deg, rgba(209, 209, 251, 1) 0%, rgba(249, 249, 255, 1) 100%, rgba(241, 249, 251, 1) 100%);
 }
-main button{  padding:10px 10px;
-  color:white;
+
+main button, .inhaltText button {
+  padding: 10px 15px;
+  color: white;
   font-weight: bold;
-  border:1px solid #2552be;
+  border: 1px solid #2552be;
   border-radius: 15px;
   background-color: #2552be;
   font-size: 15px;
-  margin-top: 10px;
+  margin-top: 20px;
   transition: color 0.5s;
-
-}
-main button:hover{
-  color:#2552be;
-  background-color:white;
-}
-main img{
-  width:90%;
 }
 
-main h1{
+main button:hover, .inhaltText button:hover {
+  color: #2552be;
+  background-color: white;
+}
+
+main img {
+  width: 90%;
+}
+
+main h1 {
   font-size: 44px;
   color: #424546;
 }
-main h3{
+
+main h3 {
   font-size: 20px;
   color: #6b6f70;
   margin-top: 0;
 }
-.text{
 
+.text {
   display: flex;
   flex-direction: column;
-  align-items:flex-start;
+  align-items: flex-start;
   justify-content: center;
 }
-.wellcome{
-  padding:10px 10px;
-    color:#2f53ec;
-    font-weight: bold;
-    font-size: 12px;
-    border-radius: 15px;
-    background-color: #c3cee7;
+
+.wellcome {
+  padding: 10px 10px;
+  color: #2f53ec;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 15px;
+  background-color: #c3cee7;
 }
 
-.mitte{
-  width:100%;
+.mitte {
+  width: 100%;
   display: flex;
   padding: 0 60px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding:10px;
-  background-color: rgb(209,209,251);
-
+  padding: 10px;
+  background-color: rgb(209, 209, 251);
 }
-.mitte img{
-  width:20%;
+
+.mitte img {
+  width: 20%;
   margin-right: 10px;
-
 }
-.mitte>div{
 
+.mitte>div {
   display: flex;
   flex-direction: row;
-  width:260px;
-  padding:15px 0;
+  width: 260px;
+  padding: 15px 0;
 }
-.text2{
+
+.text2 {
   padding-top: 10px;
-  color:#53534f;
+  color: #53534f;
 }
+
 /*********************************************/
 /****** INTRO INTRO INTRO **********************7
 /*********************************************/
-.intro{
-  width:100%;
+.intro {
+  width: 100%;
   background-color: white;
-  padding:0 60px;
+  padding: 0 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 10px 0;
-  border-bottom: 1px solid black;
+  margin: 20px 0;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #90908c;
 }
-.content{
+
+.content {
   display: flex;
   flex-wrap: wrap;
 }
-.content>div{
+
+.content>div {
   display: flex;
   flex-direction: column;
-  width:350px;
+  width: 350px;
   margin-top: 10px;
-
-  padding:20px;
+  padding: 20px;
   align-items: center;
 }
-.intro img{
-  width:20%;
+
+.intro img {
+  width: 20%;
 }
 
-.intro span{
-  margin-bottom: 10px;
+.intro span {
+  margin-bottom: 20px;
   font-size: 16px;
-  color:#636369;
+  color: #636369;
+}
+
+/*********************************************/
+/****** INHALT1 INHALT1 **********************7
+/*********************************************/
+.inhalt1 {
+  width: 100%;
+  padding: 50px 310px;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.inhalt1 img {
+  width: 500px;
+  padding: 0;
+  margin-right: 50px;
+  border-radius: 10px;
+}
+
+.inhaltText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.inhaltText button {}
+
+.inhaltText span {
+  font-size: 20px;
+  color: #5d5958;
+}
+/*********************************************/
+/****** INHALT2 INHALT2 **********************7
+/*********************************************/
+
+.innen{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.inhalt2{
+  width:65%;
+
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 10px;
+
+  border-top: 1px solid #9aa0a2;
+}
+.inhalt2 img{
+  width:15%;
+  margin-right: 15px;
+}
+.inhalt2>div{
+  display: flex;
+border-radius: 10px;
+background-color: #e0e4f1;
+margin: 5px;
+padding: 15px;
+}
+/*********************************************/
+/****** INHALT3 INHALT3 **********************7
+/*********************************************/
+.inhalt3{
+  margin:20px 0;
+  text-align: center;
+
+}
+.items{
+  display: flex;
+  justify-content: center;
+  width:100%;
+
+}
+.itemsInnen{
+  display: flex;
+  width:70%;
+  justify-content: center;
+  margin-top: 20px;
+
+
+}
+
+.kleinText{
+  display: flex;
+  flex-direction: column;
+justify-content: space-evenly;
+margin-left: 30px;
+}
+.kleinText a{
+  text-decoration: none;
+  font-size:20px;
+  color:#a29ca0;
+  background-color: #ecebf4;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding:10px 20px;
+
+
+}
+.kleinText a:hover{
+  padding:10px 20px;
+  background-color: #d0d1c9;
+}
+
+
+
+.gross-img>img{
+  width:80%;
+  padding:0;
+
 }

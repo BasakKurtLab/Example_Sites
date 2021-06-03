@@ -1,29 +1,25 @@
-
-
 var placeholder1 = document.getElementById("placeholder1");
 var placeholder2 = document.getElementById("placeholder2");
+var ersteInput = document.getElementById("ersteInput");
+var zweiteInput = document.getElementById("zweiteInput");
 
-function fc1()
+
+
+function fc(element,text)
 {
-    placeholder1.style.fontSize = "0.9em";
-    placeholder1.style.top = "-70px";
+    element.style.borderColor = "blue";
+    element.style.outline ="none";
+    text.style.fontSize = "0.9em";
+    text.style.top = "-68px";
+    text.style.color = "blue";
 }
-
-function fc2()
-{
-    placeholder2.style.fontSize = "0.9em";
-    placeholder2.style.top = "-70px";
-}
-
-function fb1()
-{
+function fb(element, text) {
+    element.style.borderColor = "#2f3336";
+    element.style.outline = "none";
+    text.style.color = "darkgrey";
     
-    placeholder1.style.fontSize = "1.2em";
-    placeholder1.style.top = "-44px";
-}
-
-function fb2()
-{
-    placeholder2.style.fontSize = "1.2em";
-    placeholder2.style.top = "-44px";
+    if (element.value == "") {
+        text.style.top = "-44px";
+        text.style.fontSize = "1.2em";
+    }
 }

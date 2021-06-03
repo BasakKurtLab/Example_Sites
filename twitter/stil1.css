@@ -1,9 +1,14 @@
-body {margin: 0; font-family: Arial; background-color: black;}
-* {box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: black;
+}
 
-.haupt
-{
-  background-color:black;
+.haupt {
+  background-color: black;
   height: 650px;
 
   width: 25%;
@@ -11,41 +16,32 @@ body {margin: 0; font-family: Arial; background-color: black;}
   margin-right: auto;
 }
 
-.logo img
-{
-  width:40px;
+.logo img {
+  width: 40px;
   height: 40px;
-margin-top:25px;
-margin-left:20px;
-
-
+  margin-top: 25px;
+  margin-left: 20px;
 }
-.textMitte
-{
-  margin-top:30px;
-  margin-left:20px;
-
+.textMitte {
+  margin-top: 30px;
+  margin-left: 20px;
 }
-.textMitte span
-{text-align: center;
-  font-size:30px;
-  color:rgb(217 217 217);
+.textMitte span {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(217 217 217);
   font-weight: bold;
   font-family: verdana;
-
 }
-.loginField
-{
+.loginField {
   background-color: black;
   width: 90%;
   float: left;
   border-radius: 10px;
-  border:0px solid gray;
+  border: 0px solid gray;
   margin-left: 0;
-
 }
-.inputBox
-{
+.inputBox {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -55,75 +51,64 @@ margin-left:20px;
   border-radius: 5px;
   height: 60px;
 }
-.inputBox input
-{ border: 1px solid #2f3336;
+.inputBox input {
+  border: 1px solid #2f3336;
   background: none;
-  width:100%;
-  height:70px;
+  width: 100%;
+  height: 70px;
   text-align: left;
   font-size: 20px;
-padding-left: 4px;
-border-radius: 5px;
-color:darkgray;
-
+  padding-left: 8px;
+  border-radius: 5px;
+  color: darkgray;
 }
-#ersteInput{
+#ersteInput {
   margin-top: 10px;
 }
-#zweiteInput{
+#zweiteInput {
   margin-top: 15px;
 }
 
-.inputBox input :focus
-{ outline: none !important;
-  border:10px solid blue;
-
+.inputBox input :focus {
+  outline: none !important;
+  border: 10px solid blue;
 }
-.inputBox span{
+.inputBox span {
   position: relative;
-  color:darkgray;
-  top:-44px;
-  left:10px;
+  color: darkgray;
+  top: -44px;
+  left: 10px;
   font-size: 1.2em;
-
+  pointer-events: none;
+  transition: top 0.4s;
 }
 
-
-
-.button
-{
-  margin-top:50px;
-
+.button {
+  margin-top: 50px;
 }
 
-.button div
-{ width:90%;
-  height:40px;
+.button div {
+  width: 90%;
+  height: 40px;
 
-  border-radius:30px;
-  margin-top:20px;
-  margin-left:auto;
-  margin-right:auto;
-
-
-
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.button1
-{background-color: #0e5079;
-  border:0px solid #0e5079;
-
+.button1 {
+  background-color: #0e5079;
+  border: 0px solid #0e5079;
 }
-.button1 input
-{ width:100%;
+.button1 input {
+  width: 100%;
   background: none;
-  border:none;
-  outline:none;
-  color:white;
+  border: none;
+  outline: none;
+  color: white;
   font-weight: bold;
-margin-top:10px;
-
+  margin-top: 10px;
 }
-.button a:hover
-{
-  outline:none;
+.button a:hover {
+  outline: none;
 }
